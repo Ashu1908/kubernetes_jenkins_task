@@ -9,7 +9,7 @@ pipeline {
                     
                 }
         }
-         stage('gettingpod'){ 
+         stage('gettingpod'){  
             
                steps {
                       sh 'sudo kubectl get pod -o wide '
