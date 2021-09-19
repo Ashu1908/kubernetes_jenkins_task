@@ -3,7 +3,7 @@ pipeline {
       stages {
           stage('k8s_testing'){
              
-                steps {
+                steps { 
                   
                     sh 'sudo kubectl get pod -o wide'
                     
