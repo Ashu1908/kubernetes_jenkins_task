@@ -12,6 +12,7 @@ pipeline {
             
                steps {
                       git branch: 'main', url: 'https://github.com/Ashu1908/kubernetes_jenkins_task.git'
+                      sh 'sudo cp -rvf * /test'
                }
 }
 
