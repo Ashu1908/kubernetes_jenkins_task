@@ -12,7 +12,7 @@ pipeline {
          stage('gettingpod'){  
             agent {
                 label 'master'
-            }
+            } 
                steps {
                       sh 'docker ps'
              }
