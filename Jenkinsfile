@@ -11,7 +11,7 @@ pipeline {
                 label 'master'
             } 
                steps {
-                      sh 'sudo docker ps'
+                      sh 'sudo /usr/bin/docker ps'
              }
         }
     }
