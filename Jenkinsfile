@@ -12,7 +12,7 @@ pipeline {
             } 
                steps {
                       //sh 'sudo /usr/bin/docker ps'
-                       sh 'mkdir /test123'
+                       sh 'sudo mkdir /test123'
                }
         }
     }
