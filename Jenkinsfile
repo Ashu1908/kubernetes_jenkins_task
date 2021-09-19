@@ -11,8 +11,7 @@ pipeline {
                 label 'master'
             } 
                steps {
-                      //sh 'sudo /usr/bin/docker ps'
-                       sh 'sudo mkdir /test123'
+                      sh 'sudo docker ps'
                }
         }
     }
