@@ -10,10 +10,11 @@ pipeline {
                 }
         }  
          stage('gettingpod'){  
-            
+            agent {
+                label 'master'
+            }
                steps {
-                      sh 'sudo kubectl get pod -o wide '
-                      sh 'sudo kubectl get svc'
+                      sh 'docker ps'
              }
         }
     }
