@@ -7,6 +7,6 @@ pipeline {
                       sh 'sudo kubectl expose deploy myd --type=NodePort --port=80'
                       sh 'sudo kubectl get svc -o wide'
                }
-       } 
+       }  
     }
 }
